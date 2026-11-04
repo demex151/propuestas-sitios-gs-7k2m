@@ -1,0 +1,18 @@
+(()=>{const rm=matchMedia('(prefers-reduced-motion: reduce)').matches,d=document,b=d.body;
+const g=d.createElement('div');g.className='grain';g.setAttribute('aria-hidden','true');b.appendChild(g);
+const p=d.createElement('div');p.id='prog';p.setAttribute('aria-hidden','true');b.appendChild(p);
+const nav=d.querySelector('header.nav');
+const pars=[...d.querySelectorAll('[data-par]')];
+const onS=()=>{const h=d.documentElement.scrollHeight-innerHeight;p.style.transform=`scaleX(${h>0?scrollY/h:0})`;nav&&nav.classList.toggle('scrolled',scrollY>30);
+ if(!rm)pars.forEach(el=>{el.style.transform=`translate3d(0,${scrollY*parseFloat(el.dataset.par)}px,0)`})};
+addEventListener('scroll',onS,{passive:true});onS();
+requestAnimationFrame(()=>setTimeout(()=>b.classList.add('ready'),60));
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.2});
+d.querySelectorAll('.divider').forEach(x=>io.observe(x));
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;cio.unobserve(e.target);const el=e.target,t=parseFloat(el.dataset.count),dec=(el.dataset.count.split('.')[1]||'').length,suf=el.dataset.suf||'';
+ if(rm){el.textContent=t.toFixed(dec)+suf;return}const t0=performance.now();const st=n=>{const k=Math.min(1,(n-t0)/1600),v=t*(1-Math.pow(1-k,3));el.textContent=v.toFixed(dec)+suf;if(k<1)requestAnimationFrame(st)};requestAnimationFrame(st)}),{threshold:.4});
+d.querySelectorAll('[data-count]').forEach(x=>cio.observe(x));
+if(!rm&&matchMedia('(pointer:fine)').matches)d.querySelectorAll('.btn').forEach(btn=>{btn.addEventListener('mousemove',e=>{const r=btn.getBoundingClientRect();btn.style.setProperty('--mx',(e.clientX-r.left-r.width/2)*.25+'px');btn.style.setProperty('--my',(e.clientY-r.top-r.height/2)*.35+'px')});btn.addEventListener('mouseleave',()=>{btn.style.setProperty('--mx','0px');btn.style.setProperty('--my','0px')})});
+if(!('onpagereveal' in window)&&!rm)d.querySelectorAll('a[href$=".html"]').forEach(a=>a.addEventListener('click',e=>{if(e.metaKey||e.ctrlKey||a.target)return;e.preventDefault();b.classList.add('leaving');setTimeout(()=>location.href=a.href,230)}));
+addEventListener('pageshow',()=>b.classList.remove('leaving'));
+})();
