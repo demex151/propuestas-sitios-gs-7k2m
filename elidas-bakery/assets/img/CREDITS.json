@@ -1,0 +1,141 @@
+{
+ "business": "Elida's Bakery",
+ "address": "2128 S Riverside Dr #99, Iowa City, IA 52246, United States",
+ "source": "Google Maps public listing photos",
+ "maps_url": "https://www.google.com/maps?ftid=0x87e44186b987a801:0x9bc87e4105dbcb1b",
+ "placeid": "ChIJAaiHuYZB5IcRG8vbBUF-yJs",
+ "photos": [
+  {
+   "file": "p01.jpg",
+   "size": [
+    1080,
+    1440
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEx5xOgSzcEf0_3q0njRMjBfk7-dGAauvnDzh-NTj2XzvHJfGvvWTaOLHnzAPcK-kfWSW4SBlVxJ9xM6_U-XlcJ5-b_2cOejpMxGJmMeeMA9URTAucbMTTHevKwr4PYEF7WG5E=w1800-k-no"
+  },
+  {
+   "file": "p02.jpg",
+   "size": [
+    1301,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjiQ_uwIB2WAm7Emd0n3okGajR8voVmIN7a1mpETD1Vcp4kZyjFjCRBydHId4f_lprrBlxSUQSd3ravCutDaoHgOBfnjLGcBB4rJxiqZim7cTxVBiDM7aM-kRSZfFt5bEFs5k=w1800-k-no"
+  },
+  {
+   "file": "p03.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdrCKsWjUa20cfhKbpefu_DwtcuotwKS0hWyMF8XWkDw9e_xZrXg7alX3IMKycsSxCPLGJH2jgUoek4ZcquoBivg2pNrsABEoi6TRCzDaDEVZKhc69JoHU3OAHPgeORQI1SX3rRkRWGRnY=w1800-k-no"
+  },
+  {
+   "file": "p04.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTiR-pTp7xgFSGOi1Two50lCVgZ30QGPd3NXXwJv5585KT85cyw0bCDkPjafG3C1dFfeBen6TNWvKplhZNeIXpoBUpqlXbbPpwA4N31zka9n7JXQfEjq8bj85NWNB-F6wXNgo=w1800-k-no"
+  },
+  {
+   "file": "p05.jpg",
+   "size": [
+    1205,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhkYfNq6EAbY7WjGt-ieKRaahpiRYEyvWOY3J6WOOdYN85cbARwENFZUfzCm6TDpHFm7D8BFfYwqSCp4kMdW4KhHVVUsuakzCpWu-i0I4JWi_o0hYRcuXV7_cnvbMGNH9mC7w=w1800-k-no"
+  },
+  {
+   "file": "p06.jpg",
+   "size": [
+    1205,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfNExVXJRo932Hns52ykbkUABuPvb6LusILr0Fp_5r5lhj1f0_puF5yZcNnoYYi8gT59Db1QIrtaLRUNC0vLjDNqPsYHlJpY03F8_7cYJoCJG5DvXkubEDKHMEcP0XcVhyVejk=w1800-k-no"
+  },
+  {
+   "file": "p07.jpg",
+   "size": [
+    1205,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7cR1C3bhIAqjibG0oNA3dIj_fjbb8Eb6Uf_pGrkRb7ckNAIHx9l32Sa-MDn3DpjQFYYGjh4BrzjZAmHZe5y6NJAHJtTRJgMoGKgJKP0axAW9IdaDoQN7TEBQ-zCMFbdGWeuaZ=w1800-k-no"
+  },
+  {
+   "file": "p08.jpg",
+   "size": [
+    1252,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc9LgqHEbgNpXtbuGKS0gYYPz5vjT_HyI9JVo2J5AR9rglK8uYFgvPEERzrbKWXWLLvVw2gqgl6K09bA5c7TsbOOiFDrp1GQdZX8CFZQ0Qh8H8xkIWSeoBB47wLmAlOMGdmQHhW=w1800-k-no"
+  },
+  {
+   "file": "p09.jpg",
+   "size": [
+    1205,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-QjNQw5Lwl_Gi1L3_shNOtduftLu8h472j_PLgjxks9m8SBL_vAJt3EuT3kdME7Im1yyN-H7mNI_7iDBqzifLZKL3cAdQI9HeqUKlw531ZhZBiJMxYstwHXCANzYBs_JofgU=w1800-k-no"
+  },
+  {
+   "file": "p10.jpg",
+   "size": [
+    1600,
+    1113
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeqyE0w3-yfnZ6kf-FGc0qNbp9zP4DiEI7Zt_qMUpYgxyrLLwD3QOdowXNoyPttBv-ZsOL2OFP8iHDu1MyY1rFVWJWvQJgppbT-CQAEJplS-o47QdMjlbdWzM7PgKOJm4cYUFbg=w1800-k-no"
+  }
+ ],
+ "used": [
+  {
+   "site_file": "assets/img/01.jpg",
+   "orig": "p09.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-QjNQw5Lwl_Gi1L3_shNOtduftLu8h472j_PLgjxks9m8SBL_vAJt3EuT3kdME7Im1yyN-H7mNI_7iDBqzifLZKL3cAdQI9HeqUKlw531ZhZBiJMxYstwHXCANzYBs_JofgU=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/02.jpg",
+   "orig": "p01.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcEx5xOgSzcEf0_3q0njRMjBfk7-dGAauvnDzh-NTj2XzvHJfGvvWTaOLHnzAPcK-kfWSW4SBlVxJ9xM6_U-XlcJ5-b_2cOejpMxGJmMeeMA9URTAucbMTTHevKwr4PYEF7WG5E=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/03.jpg",
+   "orig": "p02.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfjiQ_uwIB2WAm7Emd0n3okGajR8voVmIN7a1mpETD1Vcp4kZyjFjCRBydHId4f_lprrBlxSUQSd3ravCutDaoHgOBfnjLGcBB4rJxiqZim7cTxVBiDM7aM-kRSZfFt5bEFs5k=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/04.jpg",
+   "orig": "p03.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdrCKsWjUa20cfhKbpefu_DwtcuotwKS0hWyMF8XWkDw9e_xZrXg7alX3IMKycsSxCPLGJH2jgUoek4ZcquoBivg2pNrsABEoi6TRCzDaDEVZKhc69JoHU3OAHPgeORQI1SX3rRkRWGRnY=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/05.jpg",
+   "orig": "p04.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTiR-pTp7xgFSGOi1Two50lCVgZ30QGPd3NXXwJv5585KT85cyw0bCDkPjafG3C1dFfeBen6TNWvKplhZNeIXpoBUpqlXbbPpwA4N31zka9n7JXQfEjq8bj85NWNB-F6wXNgo=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/06.jpg",
+   "orig": "p05.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhkYfNq6EAbY7WjGt-ieKRaahpiRYEyvWOY3J6WOOdYN85cbARwENFZUfzCm6TDpHFm7D8BFfYwqSCp4kMdW4KhHVVUsuakzCpWu-i0I4JWi_o0hYRcuXV7_cnvbMGNH9mC7w=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/07.jpg",
+   "orig": "p06.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfNExVXJRo932Hns52ykbkUABuPvb6LusILr0Fp_5r5lhj1f0_puF5yZcNnoYYi8gT59Db1QIrtaLRUNC0vLjDNqPsYHlJpY03F8_7cYJoCJG5DvXkubEDKHMEcP0XcVhyVejk=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/08.jpg",
+   "orig": "p07.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7cR1C3bhIAqjibG0oNA3dIj_fjbb8Eb6Uf_pGrkRb7ckNAIHx9l32Sa-MDn3DpjQFYYGjh4BrzjZAmHZe5y6NJAHJtTRJgMoGKgJKP0axAW9IdaDoQN7TEBQ-zCMFbdGWeuaZ=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/09.jpg",
+   "orig": "p08.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc9LgqHEbgNpXtbuGKS0gYYPz5vjT_HyI9JVo2J5AR9rglK8uYFgvPEERzrbKWXWLLvVw2gqgl6K09bA5c7TsbOOiFDrp1GQdZX8CFZQ0Qh8H8xkIWSeoBB47wLmAlOMGdmQHhW=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/10.jpg",
+   "orig": "p10.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeqyE0w3-yfnZ6kf-FGc0qNbp9zP4DiEI7Zt_qMUpYgxyrLLwD3QOdowXNoyPttBv-ZsOL2OFP8iHDu1MyY1rFVWJWvQJgppbT-CQAEJplS-o47QdMjlbdWzM7PgKOJm4cYUFbg=w1800-k-no"
+  }
+ ]
+}
