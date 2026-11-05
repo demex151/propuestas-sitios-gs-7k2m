@@ -1,5 +1,8 @@
-(()=>{const b=document.querySelector('.burger'),m=document.getElementById('menu');b&&b.addEventListener('click',()=>{const o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
-const io='IntersectionObserver'in window?new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.1}):null;document.querySelectorAll('.reveal').forEach(el=>io?io.observe(el):el.classList.add('in'));
-let H={};try{H=JSON.parse(document.body.dataset.hours||'{}')}catch(e){}
-if(Object.keys(H).length){const n=new Date(),d=(n.getDay()+6)%7,t=n.getHours()+n.getMinutes()/60,v=H[d];const open=v&&t>=v[0]&&t<v[1];document.querySelectorAll('.status').forEach(s=>s.textContent=open?'Open now':'Closed now · local time')}
-document.querySelectorAll('.ba input').forEach(r=>r.addEventListener('input',()=>r.parentElement.style.setProperty('--p',r.value+'%')));})();
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const c=document.querySelector('.card'),mb=document.querySelector('.mb');function tg(o){c.classList.toggle('on',o);mb.setAttribute('aria-expanded',o)}mb.onclick=()=>tg(true);c.querySelector('.x').onclick=()=>tg(false);addEventListener('keydown',e=>{if(e.key=='Escape')tg(false)});
+const H={3:[7,16],4:[7,16],5:[7,16],6:[8,13],0:[8,13]};const d=new Date(new Date().toLocaleString('en-US',{timeZone:'America/Chicago'})),h=H[d.getDay()],hr=d.getHours()+d.getMinutes()/60,st=document.querySelector('.st');
+if(h&&hr>=h[0]&&hr<h[1]){st.classList.add('op');st.querySelector('span').textContent='Open now'}else st.querySelector('span').textContent='Closed now';
+const td=document.querySelector('.wk [data-d="'+d.getDay()+'"]');if(td)td.classList.add('td');
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.setAttribute('aria-selected',x==b));document.querySelectorAll('.case').forEach(p=>p.hidden=p.id!=b.getAttribute('aria-controls'))});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.2});document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+const po=document.querySelector('.porch img');if(po&&!rm)addEventListener('scroll',()=>{const r=po.parentNode.getBoundingClientRect();po.style.setProperty('--y',(r.top*-.15)+'px')},{passive:true});
