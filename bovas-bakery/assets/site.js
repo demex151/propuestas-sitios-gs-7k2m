@@ -1,0 +1,2 @@
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+const o=document.querySelector('.ov');document.querySelector('.hb').onclick=()=>o.classList.add('op');o.querySelector('button').onclick=()=>o.classList.remove('op');

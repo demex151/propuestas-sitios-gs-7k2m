@@ -1,0 +1,25 @@
+@font-face{font-family:'It';src:url(fonts/italiana-400.woff2) format('woff2');font-weight:400;font-display:swap}@font-face{font-family:'Hk';src:url(fonts/hanken-grotesk-400.woff2) format('woff2');font-weight:400;font-display:swap}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{overflow-x:hidden;-webkit-font-smoothing:antialiased}img{display:block;max-width:100%}a{color:inherit}
+h1,h2,h3{overflow-wrap:normal;word-break:normal;hyphens:manual;text-wrap:balance}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s,transform .9s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1!important;transform:none!important}h1,h2{opacity:1!important;transform:none!important;clip-path:none!important}}
+.sec{padding:clamp(48px,8vw,96px) 18px;max-width:1180px;margin:auto}.note{margin-top:22px;opacity:.75;font-size:15px}.lead{font-size:clamp(19px,2.4vw,24px);max-width:760px}
+.ct{display:grid;gap:28px}@media(min-width:860px){.ct{grid-template-columns:1fr 1fr}}.hrs div{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid currentColor;border-color:color-mix(in srgb,currentColor 20%,transparent)}.ct a{word-break:break-all}
+figure{margin:0}
+
+:root{--sd:#efe7da;--oc:#1f5f8b;--ink:#17222b;--cr:#fbf8f3}
+body{font:16px/1.7 Hk,sans-serif;background:var(--cr);color:var(--ink)}
+.hd{padding:18px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 20px;border-bottom:1px solid #17222b22}.lg{font:clamp(26px,5vw,34px) It;text-decoration:none}
+.sl{display:flex;flex-wrap:wrap;font-size:14px;text-transform:lowercase}.sl a{text-decoration:none;min-height:44px;display:flex;align-items:center;padding:0 2px}.sl a+a:before{content:"/";margin:0 8px;color:#17222b55}.sl a[aria-current]{color:var(--oc);text-decoration:underline;text-underline-offset:5px}
+.hero{padding:40px 18px 60px;max-width:1280px;margin:auto}.hero h1{font:clamp(48px,11vw,92px)/.95 It;letter-spacing:-.01em}.hero h1 i{font-style:normal;color:var(--oc)}
+.mos{display:grid;grid-template-columns:2fr 1fr;gap:10px;margin-top:30px}.mos img{width:100%;height:100%;object-fit:cover}.mos .a{grid-row:span 2;aspect-ratio:3/4}.mos .b,.mos .c{aspect-ratio:1}
+.wipe{animation:wp 1.4s cubic-bezier(.7,0,.2,1) both}.mos .b{animation-delay:.2s}.mos .c{animation-delay:.35s}@keyframes wp{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0)}}
+.row{display:flex;flex-wrap:wrap;gap:18px;align-items:end;justify-content:space-between;margin-top:22px}.row p{max-width:520px}
+.btn{display:inline-flex;align-items:center;min-height:50px;padding:0 22px;background:var(--ink);color:var(--cr);text-decoration:none;font-size:14px;letter-spacing:.1em;text-transform:uppercase;margin:6px 8px 0 0}.btn.alt{background:var(--oc)}
+h2{font:clamp(38px,6vw,72px)/1 It;margin-bottom:26px}
+.cards{counter-reset:c}.cards div{display:grid;grid-template-columns:60px 1fr;gap:10px;padding:22px 0;border-top:1px solid #17222b33}.cards div:before{counter-increment:c;content:counter(c,decimal-leading-zero);font:28px It;color:var(--oc)}.cards b{font-weight:700;display:block;font-size:19px}
+.qs{display:grid;gap:30px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}.qs blockquote{font-size:17px;font-style:italic;border-top:3px solid var(--oc);padding-top:16px}
+.ph{padding:60px 18px 30px;max-width:1280px;margin:auto}.ph h1{font:clamp(52px,11vw,92px)/1 It}.ph p{color:var(--oc);text-transform:uppercase;letter-spacing:.2em;font-size:13px}
+.gr{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}.gr img{width:100%;aspect-ratio:3/4;object-fit:cover}
+footer{background:var(--sd);padding:40px 18px;font-size:14px}footer b{font:28px It;display:block}
+@media(min-width:900px){.mos{grid-template-columns:2fr 1fr 1fr}.mos .a{grid-row:span 1;aspect-ratio:4/3}.mos .b,.mos .c{aspect-ratio:auto}.gr{grid-template-columns:repeat(4,1fr)}}

@@ -1,0 +1,3 @@
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+const f=document.querySelector('.fab');f.querySelector('button').onclick=()=>{const o=f.classList.toggle('op');f.querySelector('button').setAttribute('aria-expanded',o)};
+if(!rm){const z=document.querySelector('.fz');if(z)for(let i=0;i<16;i++){const b=document.createElement('i'),s=10+Math.random()*50;b.style.cssText=`left:${Math.random()*100}%;width:${s}px;height:${s}px;animation-duration:${6+Math.random()*8}s;animation-delay:-${Math.random()*8}s`;z.appendChild(b)}}
