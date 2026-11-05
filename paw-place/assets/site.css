@@ -1,0 +1,24 @@
+@font-face{font-family:'Gl';src:url(fonts/gluten-400.woff2) format('woff2');font-weight:400;font-display:swap}@font-face{font-family:'Cm';src:url(fonts/commissioner-400.woff2) format('woff2');font-weight:400;font-display:swap}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{overflow-x:hidden;-webkit-font-smoothing:antialiased}img{display:block;max-width:100%}a{color:inherit}
+h1,h2,h3{overflow-wrap:normal;word-break:normal;hyphens:manual;text-wrap:balance}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s,transform .9s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1!important;transform:none!important}h1,h2{opacity:1!important;transform:none!important;clip-path:none!important}}
+.sec{padding:clamp(48px,8vw,96px) 18px;max-width:1180px;margin:auto}.note{margin-top:22px;opacity:.75;font-size:15px}.lead{font-size:clamp(19px,2.4vw,24px);max-width:760px}
+.ct{display:grid;gap:28px}@media(min-width:860px){.ct{grid-template-columns:1fr 1fr}}.hrs div{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid currentColor;border-color:color-mix(in srgb,currentColor 20%,transparent)}.ct a{word-break:break-all}
+figure{margin:0}
+
+:root{--pu:#5a189a;--li:#b5e48c;--wh:#fbfaff;--ink:#240046}
+body{font:17px/1.6 Cm,sans-serif;background:var(--wh);color:var(--ink)}
+.side{background:var(--pu);color:#fff;padding:14px 18px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between}.lg{font:34px/1 Gl;text-decoration:none;color:var(--li)}
+.side nav{display:flex;flex-wrap:wrap;gap:4px}.side nav a{min-height:44px;display:flex;align-items:center;padding:0 12px;text-decoration:none;border-radius:10px}.side nav a[aria-current]{background:var(--li);color:var(--ink)}
+.tail{display:inline-block;transform-origin:bottom left;animation:wag .5s ease-in-out infinite alternate}@keyframes wag{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+.hero{padding:40px 18px 60px;display:grid;gap:30px;align-items:center;max-width:1180px;margin:auto}.hero h1{font:clamp(46px,9vw,98px)/1 Gl}.hero h1 span{background:var(--li);padding:0 10px;border-radius:12px}
+.stack{position:relative;aspect-ratio:1;max-width:460px;width:100%;margin:auto}.stack img{position:absolute;width:72%;aspect-ratio:1;object-fit:cover;border-radius:28px;border:8px solid #fff;box-shadow:0 20px 40px #24004633;transition:transform .6s}.stack img:first-child{left:0;top:0;transform:rotate(-6deg)}.stack img:last-child{right:0;bottom:0;transform:rotate(5deg)}
+.btn{display:inline-flex;align-items:center;min-height:52px;padding:0 24px;border-radius:14px;background:var(--pu);color:#fff;text-decoration:none;font-weight:700;margin:12px 10px 0 0}.btn.alt{background:var(--li);color:var(--ink)}
+h2{font:clamp(38px,7vw,64px)/1.05 Gl;margin-bottom:22px;color:var(--pu)}
+.chk{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}.chk div{padding:16px 18px;border-radius:14px;background:#efe6fb;display:flex;gap:12px;align-items:center;font-weight:600}.chk div:before{content:"✓";flex:none;width:32px;height:32px;border-radius:50%;background:var(--li);display:grid;place-items:center}
+.qs{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.qs blockquote{padding:24px;border-radius:24px;background:var(--pu);color:#fff}.qs blockquote:nth-child(even){background:var(--li);color:var(--ink)}
+.ph{padding:36px 18px;max-width:1180px;margin:auto}.ph h1{font:clamp(54px,10vw,100px)/1 Gl;color:var(--pu)}
+.gr{display:grid;gap:14px;grid-template-columns:repeat(2,1fr)}.gr img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:24px}
+footer{background:var(--ink);color:#dcd;padding:36px 18px;font-size:15px}footer b{font:28px Gl;color:var(--li);display:block}
+@media(min-width:900px){.hero{grid-template-columns:1fr 1fr}.gr{grid-template-columns:repeat(4,1fr)}}
