@@ -1,0 +1,63 @@
+{
+ "business": "Studio Lush Hair Salon",
+ "address": "818 N McKenzie St, Foley, AL 36535, United States",
+ "source": "Google Maps public listing photos",
+ "maps_url": "https://www.google.com/maps?ftid=0x889a0e09fb4f19a5:0x245ea0157b7cc1d6",
+ "placeid": "ChIJpRlP-wkOmogR1sF8exWgXiQ",
+ "photos": [
+  {
+   "file": "p01.jpg",
+   "size": [
+    900,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDPmdCF1vG4_4yO9RWFdRoaJRx3oHkfIMTqt2XGy0jM-vL9LbaQ6KoIm39B_4TOYOckgJVup0c-fz4l7T1-AbzBeQy29j-3cpCj10YVNhoepTKkJR999ZmAy9MKcWNR85YnH4mYg=w1800-k-no"
+  },
+  {
+   "file": "p02.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXDwYp3fqLtMfmhDLPb64nyBorOYaeByJUtyNNlwCLyKLACoJHhizzoDGg0idVfaFzrNftIVnAqMvAh7q7L4nkBB887TD56BDMHZn9oJhGsTOoQP6v_yTN2-sQ_OkGxBTJxQuQSw=w1800-k-no"
+  },
+  {
+   "file": "p03.jpg",
+   "size": [
+    960,
+    1280
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLeMqk7XeIvv__yoKkpTPkRCVG-Gpol1H3bWX3JyJXCTYlzBBODYWkZNCs1s5ejmcsao8cRU7HJyTgCJqpDfU4DyQEFUh2xHAig5QLRnoCDB4AvWVteSXFwpA9MRVTTyFvkUylAQ=w1800-k-no"
+  },
+  {
+   "file": "p04.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-_k_vyUYWO8bC_2IybqDiw6S7jfTh3ljYtOVjabR5pME_Vz6OYNMCDw3Hig4VPEZknC-6qyG1zOImIUNQoJcE80RJZ-U-BxgMJ4Q_qhWYaBdYxXtVeX-c5sUq_gr_cVe1lYs=w1800-k-no"
+  }
+ ],
+ "used": [
+  {
+   "site_file": "assets/img/01.jpg",
+   "orig": "p01.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdDPmdCF1vG4_4yO9RWFdRoaJRx3oHkfIMTqt2XGy0jM-vL9LbaQ6KoIm39B_4TOYOckgJVup0c-fz4l7T1-AbzBeQy29j-3cpCj10YVNhoepTKkJR999ZmAy9MKcWNR85YnH4mYg=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/02.jpg",
+   "orig": "p03.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfLeMqk7XeIvv__yoKkpTPkRCVG-Gpol1H3bWX3JyJXCTYlzBBODYWkZNCs1s5ejmcsao8cRU7HJyTgCJqpDfU4DyQEFUh2xHAig5QLRnoCDB4AvWVteSXFwpA9MRVTTyFvkUylAQ=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/03.jpg",
+   "orig": "p02.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXDwYp3fqLtMfmhDLPb64nyBorOYaeByJUtyNNlwCLyKLACoJHhizzoDGg0idVfaFzrNftIVnAqMvAh7q7L4nkBB887TD56BDMHZn9oJhGsTOoQP6v_yTN2-sQ_OkGxBTJxQuQSw=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/04.jpg",
+   "orig": "p04.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd-_k_vyUYWO8bC_2IybqDiw6S7jfTh3ljYtOVjabR5pME_Vz6OYNMCDw3Hig4VPEZknC-6qyG1zOImIUNQoJcE80RJZ-U-BxgMJ4Q_qhWYaBdYxXtVeX-c5sUq_gr_cVe1lYs=w1800-k-no"
+  }
+ ]
+}

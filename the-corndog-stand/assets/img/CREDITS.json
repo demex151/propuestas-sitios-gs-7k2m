@@ -1,0 +1,102 @@
+{
+ "business": "The Corndog Stand",
+ "address": "205 Pittsfield Rd, Mt Sterling, IL 62353, United States",
+ "source": "Google Maps public listing photos",
+ "maps_url": "https://www.google.com/maps?ftid=0x87e09d56f235f8e3:0x33ce455f61dc1afd",
+ "placeid": "ChIJ4_g18lad4IcR_RrcYV9FzjM",
+ "photos": [
+  {
+   "file": "p01.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2oBewBeVBIEZI5GNPTR2NWuGmQ33at8fQEH4js2u8lMfLMHmxCA7rRLyoMvoDXRqYVjsji5AvZCujOYbaIw0IyCGZaV2ybqDYRNhbaKDnx2yMGhBmSKbCLjo7h71D2CvVWHoNXw=w1800-k-no"
+  },
+  {
+   "file": "p02.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd4RSFM2wxciyDzgJspjvjzER0_osveXBgftk9xv7Ci_YvLQJ1_VdkUKx1d0UFa9BmWKSiWRGU97EuJOn8BjR3jAotuvhleg3BCGZQTbQE9hhIm5IG_sq1MJYjEpusLB4dq4KTDLg=w1800-k-no"
+  },
+  {
+   "file": "p03.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLebrVUcEVn5zTRPLkyku4T2i0m6ONWlhqQptR2lD0E0pjIfB1yXCXhmJrphXUJ9-M_JEQ8n25qR1axfhM536srzUGjonk-8WREJ8XZaDBLRdfgyAJnf-UT-wYQYSiwRPCOOKACw=w1800-k-no"
+  },
+  {
+   "file": "p04.jpg",
+   "size": [
+    1600,
+    1200
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjGCbM2WMe6TR-grQ7XzIH7DH0R6EOEGvFUB3mgeZ6A93xVmZO0JGj2gffJA5eIVWOGgUeRp4B4wnxWAY_TJOFuHyoMRs5rk4VuTOebg0cPeZ_Kw8SkF8xoAHCTAZ3ECrCZW1qwQ=w1800-k-no"
+  },
+  {
+   "file": "p05.jpg",
+   "size": [
+    1600,
+    1200
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdpoQifCfvmvS5YnSbiSJTk5aBty8iOPx33ZCwhY7-Ny-96-gIRHqdvOSpgNaRj5DxfigW1750iHbazfnaAPf-y5cG3xrttWGen2XaNfUhEU-Gw_w-6LY_vdIuuCuZMO-1G7sM=w1800-k-no"
+  },
+  {
+   "file": "p06.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfBy9BVKSdHAx5PDZIZKr6HMCBMMgghgZ-yhULgx6Dzo_wAp0MMR88M0CnwMV0QbgmMHDpBFjvFg6DJL01jGVcnyXwuz4GfromwCMCRu84V7ioktIUQOUUyx-E0QFHRxTXPQvAb=w1800-k-no"
+  },
+  {
+   "file": "p07.jpg",
+   "size": [
+    1600,
+    1200
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLccw180lUc7QtUKXmO0fq45uOCY8MzTEY0rJfmBZWTiMTNNp_gT6x5XxItEOqtsFm7lrvAGwL53eFitwbnXDVY8umihg6wDlzYLw4ERB9q8iKfUhoniydXUVcefujtz0Ny2zfGw=w1800-k-no"
+  }
+ ],
+ "used": [
+  {
+   "site_file": "assets/img/01.jpg",
+   "orig": "p06.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfBy9BVKSdHAx5PDZIZKr6HMCBMMgghgZ-yhULgx6Dzo_wAp0MMR88M0CnwMV0QbgmMHDpBFjvFg6DJL01jGVcnyXwuz4GfromwCMCRu84V7ioktIUQOUUyx-E0QFHRxTXPQvAb=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/02.jpg",
+   "orig": "p01.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2oBewBeVBIEZI5GNPTR2NWuGmQ33at8fQEH4js2u8lMfLMHmxCA7rRLyoMvoDXRqYVjsji5AvZCujOYbaIw0IyCGZaV2ybqDYRNhbaKDnx2yMGhBmSKbCLjo7h71D2CvVWHoNXw=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/03.jpg",
+   "orig": "p02.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLd4RSFM2wxciyDzgJspjvjzER0_osveXBgftk9xv7Ci_YvLQJ1_VdkUKx1d0UFa9BmWKSiWRGU97EuJOn8BjR3jAotuvhleg3BCGZQTbQE9hhIm5IG_sq1MJYjEpusLB4dq4KTDLg=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/04.jpg",
+   "orig": "p05.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdpoQifCfvmvS5YnSbiSJTk5aBty8iOPx33ZCwhY7-Ny-96-gIRHqdvOSpgNaRj5DxfigW1750iHbazfnaAPf-y5cG3xrttWGen2XaNfUhEU-Gw_w-6LY_vdIuuCuZMO-1G7sM=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/05.jpg",
+   "orig": "p04.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjGCbM2WMe6TR-grQ7XzIH7DH0R6EOEGvFUB3mgeZ6A93xVmZO0JGj2gffJA5eIVWOGgUeRp4B4wnxWAY_TJOFuHyoMRs5rk4VuTOebg0cPeZ_Kw8SkF8xoAHCTAZ3ECrCZW1qwQ=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/06.jpg",
+   "orig": "p07.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLccw180lUc7QtUKXmO0fq45uOCY8MzTEY0rJfmBZWTiMTNNp_gT6x5XxItEOqtsFm7lrvAGwL53eFitwbnXDVY8umihg6wDlzYLw4ERB9q8iKfUhoniydXUVcefujtz0Ny2zfGw=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/07.jpg",
+   "orig": "p03.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLebrVUcEVn5zTRPLkyku4T2i0m6ONWlhqQptR2lD0E0pjIfB1yXCXhmJrphXUJ9-M_JEQ8n25qR1axfhM536srzUGjonk-8WREJ8XZaDBLRdfgyAJnf-UT-wYQYSiwRPCOOKACw=w1800-k-no"
+  }
+ ]
+}

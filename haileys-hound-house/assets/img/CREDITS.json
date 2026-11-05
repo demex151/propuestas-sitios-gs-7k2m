@@ -1,0 +1,63 @@
+{
+ "business": "Hailey's Hound House",
+ "address": "158 Gholston St, Comer, GA 30629, United States",
+ "source": "Google Maps public listing photos",
+ "maps_url": "https://www.google.com/maps?ftid=0x88f63b3db9eecf15:0xee997dff1e7231f5",
+ "placeid": "ChIJFc_uuT079ogR9TFyHv99me4",
+ "photos": [
+  {
+   "file": "p01.jpg",
+   "size": [
+    1440,
+    809
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLesFYNBN2AkIi_A_4g4Vq-Z2R822zWOQVjdlqKX5pIHKto4GL2MjTXZhi7DjrUV4aTsuXylSEWL85o7ZDsImiG7nLorzT4a7i6UxlcXOpkPtJwE-z5dpIx67PxYWstKoLx7Lkks4g=w1800-k-no"
+  },
+  {
+   "file": "p02.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcOj0AIniodvUuBXnzTYD0h7Qv9ZON8SXvdBHF39zWwAk_-RA4C4cZGSXoWkCtbU7-roXUPPWJFcyjUof_ErCEhoT3XIhwHPCwOUfRntT_SRk_xirPcBsa4btZ6jjqtJI0c5z02=w1800-k-no"
+  },
+  {
+   "file": "p03.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeBlYusXJHTNBWSpk-eu3LY-gYgS5VEdpe12U1VmUkKTJv1ZYxMUsbACB1iOF8D5Sgpm9p7nqYpHtPovb_mJ4qLNxy6_S8fzUiLlGjD8TRYfCm-x0Vv5navF928AwCxV4FaibGP=w1800-k-no"
+  },
+  {
+   "file": "p04.jpg",
+   "size": [
+    1368,
+    771
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfhdb3KXdSAuHQOOC-dgvOmWz_gjLijOXx3qESCNpPF5-lxHESf2YkwTAgXMNGB7I1he9_y6fikG4mGNEKWe7-NMsqvyTsuJIqHU5WI8XCir4QhhsXY9wOkaEwkbUUq7HO2WX3T=w1800-k-no"
+  }
+ ],
+ "used": [
+  {
+   "site_file": "assets/img/01.jpg",
+   "orig": "p01.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLesFYNBN2AkIi_A_4g4Vq-Z2R822zWOQVjdlqKX5pIHKto4GL2MjTXZhi7DjrUV4aTsuXylSEWL85o7ZDsImiG7nLorzT4a7i6UxlcXOpkPtJwE-z5dpIx67PxYWstKoLx7Lkks4g=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/02.jpg",
+   "orig": "p04.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfhdb3KXdSAuHQOOC-dgvOmWz_gjLijOXx3qESCNpPF5-lxHESf2YkwTAgXMNGB7I1he9_y6fikG4mGNEKWe7-NMsqvyTsuJIqHU5WI8XCir4QhhsXY9wOkaEwkbUUq7HO2WX3T=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/03.jpg",
+   "orig": "p02.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcOj0AIniodvUuBXnzTYD0h7Qv9ZON8SXvdBHF39zWwAk_-RA4C4cZGSXoWkCtbU7-roXUPPWJFcyjUof_ErCEhoT3XIhwHPCwOUfRntT_SRk_xirPcBsa4btZ6jjqtJI0c5z02=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/04.jpg",
+   "orig": "p03.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeBlYusXJHTNBWSpk-eu3LY-gYgS5VEdpe12U1VmUkKTJv1ZYxMUsbACB1iOF8D5Sgpm9p7nqYpHtPovb_mJ4qLNxy6_S8fzUiLlGjD8TRYfCm-x0Vv5navF928AwCxV4FaibGP=w1800-k-no"
+  }
+ ]
+}
