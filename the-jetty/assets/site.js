@@ -1,0 +1,2 @@
+document.documentElement.classList.add('js');const f=document.querySelector('.fab'),r=document.querySelector('.rad');f.onclick=()=>{const o=r.classList.toggle('on');f.setAttribute('aria-expanded',o)};
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:0});document.querySelectorAll('.dr').forEach(x=>io.observe(x));

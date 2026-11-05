@@ -1,0 +1,1 @@
+document.documentElement.classList.add('js');const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:0});document.querySelectorAll('.gr').forEach(x=>io.observe(x));

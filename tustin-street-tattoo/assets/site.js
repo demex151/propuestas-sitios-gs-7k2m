@@ -1,0 +1,3 @@
+document.documentElement.classList.add('js');const m=document.querySelector('.mini'),ix=document.querySelector('.idx');if(ix){addEventListener('scroll',()=>m.classList.toggle('on',scrollY>ix.offsetHeight*.7),{passive:true})}
+document.querySelector('.mini select').onchange=e=>location.href=e.target.value;
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:0});document.querySelectorAll('.ink').forEach(x=>io.observe(x));

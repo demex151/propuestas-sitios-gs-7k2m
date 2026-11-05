@@ -1,0 +1,2 @@
+document.documentElement.classList.add('js');const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.sl').forEach(x=>io.observe(x));
+const pr=document.querySelector('.prog');addEventListener('scroll',()=>{const h=document.documentElement;pr.style.setProperty('--p',h.scrollTop/Math.max(1,h.scrollHeight-innerHeight))},{passive:true})

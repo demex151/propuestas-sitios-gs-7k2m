@@ -1,0 +1,2 @@
+document.documentElement.classList.add('js');const b=document.querySelector('.mb'),s=document.querySelector('.sheet');b.onclick=()=>{const o=s.classList.toggle('on');b.setAttribute('aria-expanded',o);b.textContent=o?'CLOSE':'MENU'};
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:0});document.querySelectorAll('.sk,.rd').forEach(x=>io.observe(x));

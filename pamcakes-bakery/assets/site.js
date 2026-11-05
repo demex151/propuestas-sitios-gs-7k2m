@@ -1,0 +1,2 @@
+document.documentElement.classList.add('js');const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:0});document.querySelectorAll('.bo').forEach(x=>io.observe(x));
+document.querySelectorAll('.flip').forEach(f=>f.onclick=()=>{f.classList.toggle('on');f.setAttribute('aria-pressed',f.classList.contains('on'))})

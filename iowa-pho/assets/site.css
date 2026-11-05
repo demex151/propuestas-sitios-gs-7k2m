@@ -1,0 +1,22 @@
+@font-face{font-family:D;src:url(fonts/bricolage-grotesque-700.woff2) format('woff2');font-weight:700;font-display:swap}@font-face{font-family:T;src:url(fonts/noto-sans-400.woff2) format('woff2');font-weight:400;font-display:swap}
+h1{filter:none!important}*{box-sizing:border-box;margin:0;padding:0;text-shadow:none!important}body{font:17px/1.6 T,sans-serif;background:#fbf6ea;color:#2a1f14;overflow-x:hidden}a{color:inherit}img{display:block;max-width:100%}
+.nb{position:fixed;top:0;left:0;right:0;z-index:9;display:flex;justify-content:space-between;align-items:center;padding:12px 16px;color:#fff;transition:background .3s,color .3s}.nb.s,.sub .nb{background:#fbf6ea;color:#2a1f14;box-shadow:0 2px 14px #0002}
+.nb .lg{font:700 22px D;text-decoration:none}.nb nav{display:none}.nb nav a{text-decoration:none;min-height:44px;display:inline-flex;align-items:center;padding:0 12px;font-weight:600}.nb nav a[aria-current]{color:#f2b705}
+.nb .ph{min-height:44px;display:inline-flex;align-items:center;padding:0 16px;border-radius:22px;background:#f2b705;color:#2a1f14;text-decoration:none;font-weight:700}
+.mn{display:grid;grid-template-columns:repeat(3,1fr);background:#2a1f14}.mn a{min-height:46px;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:14px;font-weight:600}.mn a[aria-current]{color:#f2b705}
+.sub main{padding-top:68px}
+.hero{min-height:100vh;background:center/cover;position:relative;display:flex;align-items:flex-end;color:#fff}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(#0008,#0002 40%,#000c)}
+.hero .in{position:relative;padding:90px 16px 40px;display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:end;max-width:1100px;width:100%;margin:auto}
+.vt{writing-mode:vertical-rl;font:700 clamp(18px,4vw,26px) D;letter-spacing:.3em;color:#f2b705;border-left:2px solid #f2b705;padding-left:8px}
+.hero h1{font:700 clamp(48px,12vw,120px)/.95 D}.hero p{font-size:19px;max-width:540px;margin-top:10px}
+.btn{display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:24px;background:#f2b705;color:#2a1f14;text-decoration:none;font-weight:700;margin:14px 8px 0 0}.btn.l{background:none;color:inherit;border:2px solid currentColor}
+.wrap{max-width:1100px;margin:auto;padding:50px 16px}h2{font:700 clamp(30px,7vw,52px)/1.1 D;margin-bottom:20px}h2 small{display:block;font:600 13px T;letter-spacing:.2em;text-transform:uppercase;color:#b7410e}
+.sp{display:grid;gap:24px}.sp .pic{align-self:start}.sp .pic img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:180px 180px 8px 8px}
+.sp ol{list-style:none;counter-reset:m}.sp li{counter-increment:m;padding:22px 0;border-bottom:1px solid #2a1f1422;display:grid;grid-template-columns:56px 1fr}.sp li:before{content:counter(m,decimal-leading-zero);font:700 26px D;color:#b7410e}.sp b{font:700 24px D;display:block}
+.acc{display:flex;flex-direction:column;gap:8px}.acc img{width:100%;height:150px;object-fit:cover;border-radius:8px;transition:height .4s,flex .4s}
+.wl{display:grid;gap:0}.wl blockquote{padding:22px 0;border-top:1px solid #2a1f1433;font-size:19px}.wl blockquote:nth-child(even){text-align:right;color:#7a4b1d}
+.lan{background:#b7410e;color:#fff;border-radius:28px;padding:30px 22px;display:grid;gap:20px}.lan table{border-collapse:collapse;width:100%}.lan td{padding:6px 0;border-bottom:1px solid #fff4}.lan td+td{text-align:right}
+.foot{padding:30px 16px;text-align:center;font-size:15px;background:#2a1f14;color:#f3e5cf}.foot a{display:inline-flex;min-height:44px;align-items:center}.foot small{display:block;opacity:.7}
+.js .st{opacity:0;transform:translateY(30px);transition:opacity .7s,transform .7s}.js .st.in{opacity:1;transform:none}
+@media(min-width:900px){.nb nav{display:flex}.mn{display:none}.sp{grid-template-columns:1fr 1.2fr;gap:50px}.sp .pic{position:sticky;top:90px}.nb .mj{display:none}.acc{flex-direction:row;height:440px}.acc img{height:100%;flex:1;min-width:0}.acc img:hover{flex:4}.lan{grid-template-columns:1fr 1fr;padding:40px}.wl{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}.js .st{opacity:1;transform:none}}

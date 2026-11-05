@@ -1,0 +1,3 @@
+document.documentElement.classList.add('js');const ov=document.querySelector('.ov');document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>ov.classList.toggle('on'));
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.2});document.querySelectorAll('.up,.strip img').forEach(x=>io.observe(x));
+const q=document.querySelector('.qq');if(q){const Q=JSON.parse(q.dataset.q);let i=0;const b=q.querySelector('blockquote');const s=d=>{i=(i+d+Q.length)%Q.length;b.textContent='“'+Q[i]+'”'};q.querySelector('.p').onclick=()=>s(-1);q.querySelector('.n').onclick=()=>s(1);if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>s(1),9000)}
