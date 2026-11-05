@@ -1,0 +1,2 @@
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+(function(){const d=new Date(),h=d.getHours(),w=d.getDay(),el=document.querySelector('.st');if(!el)return;const close=w==5||w==6?24:23;const open=w!=0&&h>=16&&h<close;el.textContent=open?'OPEN NOW':'OPENS 4 PM';el.classList.add(open?'op':'cl')})()

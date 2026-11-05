@@ -1,0 +1,114 @@
+{
+ "business": "Jones Automotive",
+ "address": "1070 Willingham Ave, Baldwin, GA 30511-2030, United States",
+ "source": "Google Maps public listing photos",
+ "maps_url": "https://www.google.com/maps?ftid=0x8858adbd801899c5:0x82de7aa9a4ecb2ac",
+ "photos": [
+  {
+   "file": "p01.jpg",
+   "size": [
+    1024,
+    768
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL8SdrPrGXLnsFbkkiQf5vyRjestHkGNE6Bg1XNfWEdvMGrFOHenBCPdHa8-toED99D037K_QcNc1hwJyzcTExE-3NGV-P0pJnvW5H18X-HVqVBoX4IbdQChDT-KBzaWdXENY4LflExeGP=w1800-k-no"
+  },
+  {
+   "file": "p02.jpg",
+   "size": [
+    1600,
+    1200
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcsMgu32ie7fsSNc1eayvELoKCJFw44hSihEWvTvKLI0HqVb9wBDxk_sjSHZsrr9A-sF-rnEQVXUKdkUQJGzKbY7g9Lbx7F7U7Zreshv6_SrBT3WPoRcXrgb9EDyFf1k99Q6GtQomwRdtDi=w1800-k-no"
+  },
+  {
+   "file": "p03.jpg",
+   "size": [
+    1600,
+    1200
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeoegTAtHxfNtleaGJzdsS_m2htP22msc1jjTqWqnIejMslKtpqO38OLLZCQ1T28rW0ne6WpYouVbwjgW5u1fcRrao8lwtKhVjqWOGAVc2r9xw4imBGp1oKXNrVWUQMo2y1em4A9cDIFnmj=w1800-k-no"
+  },
+  {
+   "file": "p04.jpg",
+   "size": [
+    1600,
+    1200
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdseAcl-yzJ8cC0O37CWlmVfwzhmXUMOeuKaYGXxpflS54BXzqx2WhTW1tnGL672XPJEKGV303vtiL00XAsH8NoA8NL1A6t556_VYBR9bbRwB_ErBZdkw2M9DHJ4FOlfaGuekHw-nV-kb1V=w1800-k-no"
+  },
+  {
+   "file": "p05.jpg",
+   "size": [
+    900,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVm51_fuLKCIrZ_5JskB32pxTJVwvCflnTojpvmwIS4WWOUiKaHkUmtv6yhaia8bS1lF2T_RyB3lqnjlhcIuvA_tW5wEaSqKI-ZRAXQ4r4grKRKqQVd1mNYGfIq7KCkQnAJjVnWFicjgJq=w1800-k-no"
+  },
+  {
+   "file": "p06.jpg",
+   "size": [
+    1200,
+    1600
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfQ5JpqrJZSil9IqixSI57s0sjJQrgSZ3g0ZcVTRPGCZ3YTOtM0DQenLGwk720jEo3Kws3AHPyAbOstyTDWFVfhQAtOsjVmrREyvObaMkEnsKkYLmmTOIfdPdmRwlX4CGI329507Dz9I9oa=w1800-k-no"
+  },
+  {
+   "file": "p07.jpg",
+   "size": [
+    848,
+    1131
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdzYr3k-eCnsEPYf43CWlWu5HCEcSe4f0WoOdBT5jYnotuoHxl5XsIWnCPK8jAfc6iQt1rCMcyiwnLetbRNZafvtCx6R_yNsfFBSZ5eR8fkc4Zb15ohlANv-f5UG6KjxgcESdVijhLxfwz=w1800-k-no"
+  },
+  {
+   "file": "p08.jpg",
+   "size": [
+    1080,
+    941
+   ],
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfByIrcROHJmlMjIu0Skt_TtAYDprE3y-G0RNHRbVUT05W_uQ2_WD1HKpVM9GdocanTGvAHLuGADct5MiKPfMabqAwvLFJ--BOb7400-xYZc1RAWpL9bScljwPZhvGsJSQXfHs3hhz_ErHF=w1800-k-no"
+  }
+ ],
+ "used": [
+  {
+   "site_file": "assets/img/01.jpg",
+   "orig": "p01.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL8SdrPrGXLnsFbkkiQf5vyRjestHkGNE6Bg1XNfWEdvMGrFOHenBCPdHa8-toED99D037K_QcNc1hwJyzcTExE-3NGV-P0pJnvW5H18X-HVqVBoX4IbdQChDT-KBzaWdXENY4LflExeGP=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/02.jpg",
+   "orig": "p02.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcsMgu32ie7fsSNc1eayvELoKCJFw44hSihEWvTvKLI0HqVb9wBDxk_sjSHZsrr9A-sF-rnEQVXUKdkUQJGzKbY7g9Lbx7F7U7Zreshv6_SrBT3WPoRcXrgb9EDyFf1k99Q6GtQomwRdtDi=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/03.jpg",
+   "orig": "p03.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLeoegTAtHxfNtleaGJzdsS_m2htP22msc1jjTqWqnIejMslKtpqO38OLLZCQ1T28rW0ne6WpYouVbwjgW5u1fcRrao8lwtKhVjqWOGAVc2r9xw4imBGp1oKXNrVWUQMo2y1em4A9cDIFnmj=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/04.jpg",
+   "orig": "p04.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLdseAcl-yzJ8cC0O37CWlmVfwzhmXUMOeuKaYGXxpflS54BXzqx2WhTW1tnGL672XPJEKGV303vtiL00XAsH8NoA8NL1A6t556_VYBR9bbRwB_ErBZdkw2M9DHJ4FOlfaGuekHw-nV-kb1V=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/05.jpg",
+   "orig": "p05.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVm51_fuLKCIrZ_5JskB32pxTJVwvCflnTojpvmwIS4WWOUiKaHkUmtv6yhaia8bS1lF2T_RyB3lqnjlhcIuvA_tW5wEaSqKI-ZRAXQ4r4grKRKqQVd1mNYGfIq7KCkQnAJjVnWFicjgJq=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/06.jpg",
+   "orig": "p06.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfQ5JpqrJZSil9IqixSI57s0sjJQrgSZ3g0ZcVTRPGCZ3YTOtM0DQenLGwk720jEo3Kws3AHPyAbOstyTDWFVfhQAtOsjVmrREyvObaMkEnsKkYLmmTOIfdPdmRwlX4CGI329507Dz9I9oa=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/07.jpg",
+   "orig": "p07.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdzYr3k-eCnsEPYf43CWlWu5HCEcSe4f0WoOdBT5jYnotuoHxl5XsIWnCPK8jAfc6iQt1rCMcyiwnLetbRNZafvtCx6R_yNsfFBSZ5eR8fkc4Zb15ohlANv-f5UG6KjxgcESdVijhLxfwz=w1800-k-no"
+  },
+  {
+   "site_file": "assets/img/08.jpg",
+   "orig": "p08.jpg",
+   "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLfByIrcROHJmlMjIu0Skt_TtAYDprE3y-G0RNHRbVUT05W_uQ2_WD1HKpVM9GdocanTGvAHLuGADct5MiKPfMabqAwvLFJ--BOb7400-xYZc1RAWpL9bScljwPZhvGsJSQXfHs3hhz_ErHF=w1800-k-no"
+  }
+ ]
+}

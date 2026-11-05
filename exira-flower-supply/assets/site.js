@@ -1,0 +1,5 @@
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+(function(){const b=document.querySelector('.mb'),d=document.querySelector('.dr'),x=d.querySelector('button');b.onclick=()=>{d.classList.add('o');x.focus()};x.onclick=()=>d.classList.remove('o');
+if(matchMedia('(prefers-reduced-motion:reduce)').matches)return;const c=document.getElementById('pt'),g=c.getContext('2d');let W,H;const f=()=>{W=c.width=innerWidth;H=c.height=innerHeight};f();addEventListener('resize',f);
+const P=[...Array(18)].map(()=>({x:Math.random()*innerWidth,y:Math.random()*innerHeight,s:6+Math.random()*8,v:.3+Math.random()*.6,a:Math.random()*6}));
+(function l(){g.clearRect(0,0,W,H);P.forEach(p=>{p.y+=p.v;p.x+=Math.sin(p.a+=.01)*.6;if(p.y>H+20){p.y=-20;p.x=Math.random()*W}g.save();g.translate(p.x,p.y);g.rotate(p.a);g.fillStyle='rgba(201,111,106,.35)';g.beginPath();g.ellipse(0,0,p.s,p.s/2,0,0,7);g.fill();g.restore()});requestAnimationFrame(l)})()})()

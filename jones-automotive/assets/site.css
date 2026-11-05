@@ -1,0 +1,23 @@
+@font-face{font-family:'Rg';src:url(fonts/righteous-400.woff2) format('woff2');font-weight:400;font-display:swap}@font-face{font-family:'Cb';src:url(fonts/cabin-400.woff2) format('woff2');font-weight:400;font-display:swap}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{overflow-x:hidden;-webkit-font-smoothing:antialiased}img{display:block;max-width:100%}a{color:inherit}
+h1,h2,h3{overflow-wrap:normal;word-break:normal;hyphens:manual;text-wrap:balance}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s,transform .9s cubic-bezier(.2,.7,.2,1)}.rv.in{opacity:1;transform:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1!important;transform:none!important}h1,h2{opacity:1!important;transform:none!important;clip-path:none!important}}
+
+:root{--b:#0d2c5a;--o:#ff6a13;--w:#f3f5f8;--k:#0a1426}
+body{font:17px/1.6 Cb,system-ui,sans-serif;background:var(--w);color:var(--k)}
+.hd{position:sticky;top:0;z-index:50;background:var(--b);color:#fff}.hd .r{display:flex;justify-content:space-between;align-items:center;padding:10px 16px}.hd .lg{font:22px Rg;color:#fff;text-decoration:none}.hd .lg b{color:var(--o);font-weight:400}
+.tabs{display:flex;gap:4px;padding:0 10px;overflow-x:auto;scrollbar-width:none}.tabs a{flex:0 0 auto;min-height:44px;display:flex;align-items:center;padding:0 16px;color:#fff;text-decoration:none;background:#ffffff1a;border-radius:10px 10px 0 0;font-size:14px}.tabs a[aria-current]{background:var(--w);color:var(--b);font-weight:700}
+.hero{position:relative;min-height:86svh;display:flex;align-items:flex-end;overflow:hidden}.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0a1426ee,#0a142688 60%,#0a142633)}
+.hx{position:relative;z-index:2;color:#fff;padding:0 18px 50px;max-width:760px}.hx h1{font:clamp(42px,10vw,92px)/1 Rg;text-shadow:0 4px 30px #000}.hx h1 b{color:var(--o);font-weight:400}
+.gauge{position:absolute;z-index:2;right:6%;top:8%;width:clamp(110px,22vw,220px);aspect-ratio:1}.gauge svg{width:100%;height:100%}.needle{transform-origin:50px 50px;animation:nd 2.2s cubic-bezier(.3,1.6,.5,1) forwards;transform:rotate(-120deg)}@keyframes nd{to{transform:rotate(60deg)}}
+.btn{display:inline-flex;align-items:center;min-height:54px;padding:0 24px;border-radius:8px;background:var(--o);color:#fff;text-decoration:none;margin:14px 10px 0 0;font-weight:700}.btn.o{background:#fff;color:var(--b)}
+.sec{padding:70px 18px;max-width:1150px;margin:auto}.sec h2{font:clamp(34px,7vw,64px)/1.05 Rg;color:var(--b);margin-bottom:26px}
+.tk{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}.tk div{background:#fff;border-radius:14px;padding:22px;border-top:6px solid var(--o);box-shadow:0 8px 24px #0d2c5a14;position:relative}.tk div:after{content:"";position:absolute;left:0;right:0;top:-6px;height:6px;background:repeating-linear-gradient(90deg,var(--o) 0 14px,transparent 14px 20px)}.tk b{font:22px Rg;color:var(--b);display:block}
+.qt{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.qt blockquote{background:var(--b);color:#fff;border-radius:14px;padding:24px}.qt blockquote:before{content:"★★★★★";display:block;color:var(--o);margin-bottom:8px}
+.ph{background:var(--b);color:#fff;padding:56px 18px 40px}.ph h1{font:clamp(42px,10vw,92px)/1 Rg}
+.gr{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.gr img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px}
+.hrs div{display:flex;justify-content:space-between;background:#fff;padding:14px 18px;border-radius:10px;margin-bottom:6px;max-width:480px}
+footer{padding:40px 18px;background:var(--k);color:#ccd;font-size:15px}footer b{font:22px Rg;color:var(--o);display:block}
+@media(min-width:900px){.hd{display:flex;justify-content:space-between;align-items:flex-end}.tabs{padding-top:10px}.hx{padding:0 6vw 80px}.gr{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:reduce){.needle{transform:rotate(60deg)}}

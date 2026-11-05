@@ -1,0 +1,2 @@
+const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});document.querySelectorAll('.rv').forEach(x=>io.observe(x));
+const sc=document.querySelector('.sc'),b=sc.querySelector('button');b.onclick=()=>{b.setAttribute('aria-expanded',sc.classList.toggle('on'))};addEventListener('keydown',k=>{if(k.key=='Escape'){sc.classList.remove('on');b.setAttribute('aria-expanded',false)}})
